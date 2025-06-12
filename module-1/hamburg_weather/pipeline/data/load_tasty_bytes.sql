@@ -69,11 +69,8 @@ CREATE or ALTER TABLE {{env}}_tasty_bytes.raw_pos.country
 );
 
 
-
-CREATE or RELACE VIEW {{env}}_tasty_bytes.raw_pos.country_vw
+CREATE or ALTER VIEW {{env}}_tasty_bytes.raw_pos.country_vw
 as select * from {{env}}_tasty_bytes.raw_pos.country
-;
-
 
 -- franchise table build
 CREATE OR ALTER TABLE {{env}}_tasty_bytes.raw_pos.franchise
