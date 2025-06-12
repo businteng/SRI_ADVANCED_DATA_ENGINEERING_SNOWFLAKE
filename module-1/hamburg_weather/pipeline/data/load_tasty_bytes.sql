@@ -70,8 +70,8 @@ CREATE or ALTER TABLE {{env}}_tasty_bytes.raw_pos.country
 
 
 
-CREATE or ALTER VIEW STAGING_tasty_bytes.raw_pos.country_vw
-as select * from STAGING_tasty_bytes.raw_pos.country
+CREATE or ALTER VIEW {{env}}_tasty_bytes.raw_pos.country_vw
+as select * from {{env}}_tasty_bytes.raw_pos.country
 ;
 
 
